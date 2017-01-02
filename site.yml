@@ -1,0 +1,6 @@
+---
+- hosts: webservers
+  name: root
+  roles:
+    - common
+    - web
